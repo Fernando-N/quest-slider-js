@@ -1,0 +1,105 @@
+html {
+  font-size: 62.5%;
+}
+
+main {
+  position: relative;
+}
+
+main img {
+  width: 49px;
+  height: 78px;
+  position: absolute;
+  z-index: 99;
+  top: 50vh;
+
+  cursor: pointer;
+  margin: 0 70px 0 70px;
+}
+
+main .left-arrow {
+  transform: rotate(180deg);
+  left: 0;
+  opacity: 0;
+}
+
+main .right-arrow {
+  opacity: 1;
+  right: 0;
+  pointer-events: visible;
+}
+
+main .container section {
+  width: 100%;
+  position: absolute;
+}
+
+main section .background {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+main .changing-section-1 {
+  background: url('../assets/4.jpg') center center no-repeat;
+}
+
+main .changing-section-2 {
+  background: url('../assets/1.jpg') center center no-repeat;
+}
+
+main .changing-section-3 {
+  background: url('../assets/3.jpg') center center no-repeat;
+}
+
+main .changing-section-4 {
+  background: url('../assets/2.jpg') center center no-repeat;
+}
+
+main section .text-content {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 620px;
+  height: 700px;
+  background: #ffffff;
+  padding: 65px;
+  border-radius: 0.5rem;
+  margin-left: 180px;
+}
+
+main section .text-content h2 {
+  margin-bottom: 80px;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+main section .text-content p {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+main section .text-content button {
+  font-size: 3rem;
+  font-weight: 700;
+
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+main .changing-section-1 button {
+  color: #c50000;
+}
+
+main .changing-section-2 button {
+  color: #d9dd10;
+}
+
+main .changing-section-3 button {
+  color: #a63a17;
+}
+
+main .changing-section-4 button {
+  color: #10acdd;
+}
